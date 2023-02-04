@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>persona</title>
+    <style>
+      @media (min-width: 613px) and (max-width: 615px) {
+        .left-\[-25rem\] {
+          left: -28rem /* -400px */;
+        }
+        .left-72 {
+          left: 23rem /* 288px */;
+        }
+      }
+      @media (min-width: 359px) and (max-width: 376px) {
+        .left-72 {
+          left: 14rem /* 288px */;
+        }
+      }
+      @media (min-width: 411px) and (max-width: 415px) {
+        .left-72 {
+          left: 16rem /* 288px */;
+        }
+      }
+      @media (min-width: 389px) and (max-width: 394px) {
+        .left-72 {
+          left: 15rem /* 288px */;
+        }
+      }
+      @media (min-width: 767px) and (max-width: 821px) {
+        .sm\:w-\[20\%\] {
+          width: 38%;
+        }
+      }
+      @media (min-width: 911px) and (max-width: 913px) {
+        .sm\:w-\[20\%\] {
+          width: 35%;
+        }
+      }
+      @media (min-width: 539px) and (max-width: 541px) {
+        .sm\:w-\[20\%\] {
+          width: 52%;
+        }
+      }
+      @media (min-width: 279px) and (max-width: 281px) {
+        .sm\:w-\[20\%\] {
+          width: 80%;
+        }
+        .left-72 {
+          left: 14rem /* 288px */;
+        }
+      }
+      @media (min-width: 1023px) and (max-width: 1025px) {
+        .sm\:w-\[20\%\] {
+          width: 30%;
+        }
+      }
+      @media (min-width: 1279px) and (max-width: 1281px) {
+        .left-72 {
+          left: 17rem /* 288px */;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- side bar section  -->
+    <div
+      id="mydiv"
+      class="fixed top-0 left-[-25rem] w-[60%] h-full sm:w-[20%] sm:h-[100vh] bg-white p-5 drop-shadow-lg z-50 flex flex-col justify-between transform transition-all duration-500"
+    >
+      <lord-icon
+        src="https://cdn.lordicon.com/jfhbogmw.json"
+        trigger="loop"
+        colors="primary:#121331"
+        state="hover-3"
+        style="width: 75px; height: 75px"
+        class="absolute top-12 sm:top-2 left-72 sm:left-80"
+        onclick="myFunction()"
+      >
+      </lord-icon>
+      <div>
+        <div class="space-y-4 flex flex-col text-lg font-semibold">
+          <button class="p-4 bg-black text-white rounded-lg">Sign Up</button>
+          <button class="p-4 text-black bg-slate-100 rounded-lg">Log In</button>
+        </div>
+        <ul class="py-5 space-y-3 font-semibold">
+          <li>Create a business account</li>
+          <li>Add your restaurant</li>
+          <li>Sign up to deliver</li>
+        </ul>
+      </div>
+      <div>
+        <div class="flex space-x-3 font-medium items-center">
+          <img src="images/uberEats.svg" alt="uber image" class="w-16" />
+          <p>There's more to love in the app.</p>
+        </div>
+        <div class="flex space-x-8 py-6 font-medium">
+          <button class="bg-slate-100 rounded-2xl py-2 px-3">Iphone</button>
+          <button class="bg-slate-100 rounded-2xl py-2 px-3">Android</button>
+        </div>
+      </div>
+    </div>
+    <!-- main home page section -->
+    <div
+      class="bg-[url('bgIMG.jpg')] bg-cover font-semibold text-3xl h-[100vh]"
+    >
+      <!-- nav bar sectio for menu, sign up and login -->
+      <nav
+        id="nav"
+        class="flex justify-between p-3 sm:py-5 items-center sm:px-8 z-40 transform transition-all duration-500"
+      >
+        <div class="flex space-x-3 sm:space-x-6">
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 430 430"
+            style="enable-background: new 0 0 430 430"
+            xml:space="preserve"
+            class="w-8 sm:w-10"
+            onclick="myFunction()"
+          >
+            <style type="text/css">
+              .st0 {
+                fill: #121331;
+              }
+            </style>
+            <path
+              class="st0"
+              d="M351.54,120.92H78.46c-3.31,0-6-2.69-6-6s2.69-6,6-6h273.08c3.31,0,6,2.69,6,6S354.85,120.92,351.54,120.92z"
+            />
+            <path
+              class="st0"
+              d="M351.54,221H78.46c-3.31,0-6-2.69-6-6s2.69-6,6-6h273.08c3.31,0,6,2.69,6,6S354.85,221,351.54,221z"
+            />
+            <path
+              class="st0"
+              d="M351.54,321.08H78.46c-3.31,0-6-2.69-6-6s2.69-6,6-6h273.08c3.31,0,6,2.69,6,6S354.85,321.08,351.54,321.08z"
+            />
+          </svg>
+          <div class="text-3xl sm:text-4xl">Uber <b>Eats</b></div>
+        </div>
+        <div
+          class="flex items-center text-sm space-x-2 sm:text-xl sm:space-x-9"
+        >
+          <div
+            class="grid grid-flow-col bg-white rounded-full p-1 sm:px-3 sm:py-2"
+          >
+            <lord-icon
+              src="https://cdn.lordicon.com/dqxvvqzi.json"
+              trigger="hover"
+              colors="outline:#121331,primary:#000000,secondary:#000000"
+            >
+            </lord-icon>
+            <div class="hidden sm:block">Login</div>
+          </div>
+          <button class="text-white bg-black rounded-full px-5 py-3">
+            Sign Up
+          </button>
+        </div>
+      </nav>
+      <!-- main section for input and find food and headings -->
+      <main class="flex flex-col p-5 sm:px-8 justify-center h-[70vh]">
+        <div class="font-semibold text-4xl sm:text-5xl py-7">
+          Order food to your door
+        </div>
+        <div
+          class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2 my-4"
+        >
+          <span class="flex bg-white space-x-2 text-xl sm:w-[35%] p-3"
+            ><lord-icon
+              src="https://cdn.lordicon.com/fihkmkwt.json"
+              trigger="hover"
+              colors="primary:#121331,secondary:#000000"
+            >
+            </lord-icon
+            ><input
+              type="text"
+              placeholder="Enter delivery address"
+              class="w-[100%] outline-none"
+          /></span>
+          <span
+            class="flex bg-white space-x-3 text-xl w-auto p-3 justify-between"
+          >
+            <lord-icon
+              src="https://cdn.lordicon.com/mgmiqlge.json"
+              trigger="hover"
+              colors="primary:#ffffff,secondary:#ffffff,tertiary:#000000,quaternary:#000000"
+              stroke="100"
+            >
+            </lord-icon>
+            <div>Deliver Now</div>
+            <lord-icon
+              src="https://cdn.lordicon.com/bgywtgwo.json"
+              trigger="hover"
+              colors="primary:#121331,secondary:#08a88a"
+              stroke="90"
+              class="w-6"
+            >
+            </lord-icon>
+          </span>
+          <span
+            class="rounded-lg text-white bg-black flex items-center justify-center text-xl p-4 sm:px-5"
+            >Find Food</span
+          >
+        </div>
+        <p class="text-base sm:text-lg">
+          <u>Sign In</u> for your recent addresses
+        </p>
+      </main>
+    </div>
+    <!-- the three images section -->
+    <div
+      class="flex flex-col sm:flex-row sm:justify-evenly items-center my-10 mx-5 sm:my-24 sm:mx-10 sm:space-x-8 space-y-12 sm:space-y-0"
+    >
+      <div>
+        <img
+          src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/dd109bb1f7572eed.png"
+          alt=""
+        />
+        <h2 class="text-3xl font-semibold py-1 sm:py-3">Feed Your Employees</h2>
+        <p class="font-medium"><u>Create a business account</u></p>
+      </div>
+      <div>
+        <img
+          src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8148ef38ec4096b7.png"
+          alt=""
+        />
+        <h2 class="text-3xl font-semibold py-1 sm:py-3">
+          Your restaurant, delivered
+        </h2>
+        <p class="font-medium"><u>Add your restaurant</u></p>
+      </div>
+      <div>
+        <img
+          src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/7a9d4feba62d2c0b.png"
+          alt=""
+        />
+        <h2 class="text-3xl font-semibold py-1 sm:py-3">
+          Deliver with uber Eats
+        </h2>
+        <p class="font-medium"><u>Sign up to deliver</u></p>
+      </div>
+    </div>
+
+    <!-- the cities section -->
+    <div class="flex justify-between mx-5 sm:mx-10 items-end">
+      <div class="font-bold text-2xl sm:text-5xl">Cities near me</div>
+      <div><u>View all 500+ cities</u></div>
+    </div>
+    <img src="images/map.png" alt="" class="w-[95%] mx-auto my-7" />
+    <!-- the cities list  -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 place-content-between justify-between mx-3 sm:m-10 ">
+      <ul class="space-y-3">
+        <li>Akron</li>
+        <li>Albuquerque</li>
+        <li>Bridgeport</li>
+        <li>Concord</li>
+        <li>Dayton</li>
+        <li>El Paso</li>
+      </ul>
+      <ul class="space-y-3">
+        <li>Hartford</li>
+        <li>Houston</li>
+        <li>Indianapolis</li>
+        <li>McAllen</li>
+        <li>Mesa</li>
+        <li>Milwaukee</li>
+      </ul>
+      <ul class="space-y-3">
+        <li>Nashville</li>
+        <li>New Orleans</li>
+        <li>Oklahoma City</li>
+        <li>Omaha</li>
+        <li>Orlando</li>
+        <li>Palm Bay</li>
+      </ul>
+      <ul class="space-y-3">
+        <li>Providence</li>
+        <li>Queens</li>
+        <li>San Antonio</li>
+        <li>Stony Brook</li>
+        <li>Tucson</li>
+        <li>West Hollywood</li>
+      </ul>
+    </div>
+    <script>
+      function myFunction() {
+        var element = document.getElementById("mydiv");
+        element.classList.toggle("left-[-25rem]");
+        element.classList.toggle("left-0");
+      }
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(document).scrollTop() > 1) {
+            $("#nav").addClass("bg-white sticky top-0");
+          } else {
+            $("#nav").removeClass("bg-white sticky top-0");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
